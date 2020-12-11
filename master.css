@@ -195,6 +195,7 @@ footer .section_wrapper {
 
 @media (max-width:600px) {
 
+    /*MENU*/
     nav {
         position: fixed;
         left: 0;
@@ -280,5 +281,14 @@ footer .section_wrapper {
         text-decoration: none;
         text-transform: uppercase;
     }
+
+
+
+    /*FOOTER*/
+
+    footer .section_wrapper {
+        display: block;
+    }
+
 
 }
