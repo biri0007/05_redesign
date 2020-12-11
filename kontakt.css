@@ -101,3 +101,9 @@ a.link:hover {
 .icon {
     width: 12px;
 }
+
+.icon2 {
+    width: 15%;
+    float: right;
+
+}
