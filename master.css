@@ -288,6 +288,7 @@ footer .section_wrapper {
 
     footer .section_wrapper {
         display: block;
+        padding-left: 80px;
     }
 
 
