@@ -18,10 +18,14 @@ main {
 
 .wrapper {
 	background: white;
-	padding: 20px;
-	margin: 40px 0;
+	padding: 40px;
 	position: relative;
-	margin-top: 100px;
+	margin-top: 130px;
+}
+
+.wrapper2 {
+	margin: 40px 0;
+
 }
 
 .container {
@@ -41,4 +45,5 @@ main {
 
 .produkt_pris {
 	grid-column: 4/5;
+	text-align: right;
 }
