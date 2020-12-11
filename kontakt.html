@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="kontakt.css">
+    <link rel="stylesheet" href="master.css">
+
+</head>
+
+
+
+<header>
+
+    <header>
+        <nav>
+            <div class="logo"> <img src="logo.jpg" alt="logo"></div>
+            <ul class="links">
+                <li>
+                    <a href="forside.html#first_section">Forside</a>
+                    <a href="produkt.html">Vi tilbyder</a>
+                    <a href="kontakt.html">Bestil tid</a>
+                    <a href="om.html">Om os</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+</header>
+
+<body>
+    <div id="First_section">
+        <section class="section_wrapper">
+            <div class="col">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2251.32950990132!2d12.530430415926483!3d55.648477580525565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465255776f011745%3A0x26c2a50e225f4df5!2sSawasdee%20Wellness%20thai%20massage!5e0!3m2!1sen!2sdk!4v1607534039430!5m2!1sen!2sdk" width="510" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+                <div id="Second_section">
+                    <section class="section_wrapper">
+                        <div class="col">
+                            <h1>Kontakt os</h1>
+                            <p>
+                                <img src="icons/Adresse.png" class="icon"> <b> Addresse</b>
+                                <a class="link" href="https://www.google.dk/maps/@55.6485688,12.5324008,3a,75y,203.8h,80.78t/data=!3m9!1e1!3m7!1sinDRMPVUox8YsdWUxKdG1A!2e0!7i13312!8i6656!9m2!1b1!2i45?hl=da"><br>Mozartsvej 9, 2450 København<br> Danmark</a>
+                            </p>
+                            <p>
+                                <img src="icons/Mobil.png" class="icon"> <b>Telefon</b>
+                                <a class="link" href="tel:+45 71311932"><br>+45 71311932</a>
+                            </p>
+
+                            <p>
+                                <img src="icons/email.png" class="icon"> <b>E-mail</b>
+                                <a class="link" href="mailto:kontakt@sawasdeewellness.dk"><br>kontakt@sawasdeewellness.dk</a>
+                            </p>
+                            <img src="icons/aabningstid.png" class="icon"> <b>E-mail</b>
+                            <h1>Åbningstider</h1>
+                            <p>Man – Fre : 10:00 – 20:00</p>
+                            <p>Lørdag : 11:00 – 20:00</p>
+                            <p> Søndag : Efter aftale</p>
+
+                        </div>
+
+                    </section>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="tekst">
+                    <h1>Bestil Tid</h1>
+                    <p>Se vores ledige tider
+                        via facebook.
+                        <br> Henvend dig via telefon, eller på
+                        Facebook for hurtigst betjening.
+                    </p>
+                    <br>
+                    <h2> Send en besked
+                    </h2>
+                    <p>Udfyld kontaktformularen for at kontakte os. Vi glæder os til at høre fra jer.
+                    </p>
+                </div>
+
+                <section>
+                    <form action="tak.html" name="kontakt" netlify>
+                        <div class="form-felt">
+                            <label>
+                                Fulde navn *
+                                <input placeholder="fx Peter Jensen" type="text" name="fnavn" required>
+                            </label>
+                        </div>
+
+                        <div class="form-felt">
+                            <label>
+                                E-mail *
+                                <input placeholder="fx peter@gmail.com" name="email" type="email" required>
+                            </label>
+                        </div>
+
+                        <div class="form-felt">
+                            <label>
+                                Telefon
+                                <input type="tel" id="phone" name="phone">
+                            </label>
+                        </div>
+
+                        <form class="form-felt">
+                            <label for="date">Dato:</label>
+                            <input type="datetime-local" id="date" name="date">
+                        </form>
+
+                        <div class="form-felt">
+                            <label>
+                                Vælg massage
+                                <select name="liste">
+                                    <option value="">Vælg Massage</option>
+                                    <option value="Traditionel Thai Massage">Traditionel Thai Massage</option>
+                                    <option value="Olie Massage">Olie Massage</option>
+                                    <option value="Thai massage med varm olie">Thai massage med varm olie</option>
+                                    <option value="Sports Massage">Sports Massage</option>
+                                    <option value="Watpo deep thai massage">Watpo deep thai massage</option>
+                                    <option value="Fodmassage">Fodmassage</option>
+                                    <option value="Skuldre/Nakke massage">Skuldre/Nakke massage</option>
+                                </select>
+                            </label>
+                        </div>
+
+                        <div class="form-felt">
+                            <label>
+                                Varighed <select name="liste">
+                                    <option value="">Varighed</option>
+                                    <option value="30 min">30 min</option>
+                                    <option value="1 time">1 time</option>
+                                </select>
+                            </label>
+                        </div>
+
+                        <div class="form-felt">
+                            <label>
+                                Besked (valgfri)
+                                <textarea name="besked" rows="5" cols="40"></textarea>
+                            </label>
+                        </div>
+
+                        <input class="button" type="submit" value="Send Formular" data-title="Send Formular">
+
+                    </form>
+
+                </section>
+
+            </div>
+
+        </section>
+    </div>
+</body>
+
+</html>
