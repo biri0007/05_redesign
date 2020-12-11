@@ -10,13 +10,11 @@
 
 </head>
 
-
-
 <header>
 
     <header>
         <nav>
-            <div class="logo"> <img src="logo.jpg" alt="logo"></div>
+            <div class="logo"> <img src="kontakt_img/logo.jpg" alt="logo"></div>
             <ul class="links">
                 <li>
                     <a href="forside.html#first_section">Forside</a>
@@ -37,27 +35,42 @@
 
                 <div id="Second_section">
                     <section class="section_wrapper">
+
                         <div class="col">
                             <h1>Kontakt os</h1>
                             <p>
-                                <img src="icons/Adresse.png" class="icon"> <b> Addresse</b>
+                                <img class="icon" src="kontakt_img/Adresse.png"> <b> Addresse</b>
+                            </p>
+                            <br>
+                            <p>
+                                <img src="kontakt_img/Mobil.png" class="icon"> <b>Telefon</b>
+
+                            </p>
+                            <br>
+                            <p>
+                                <img class="icon" src="kontakt_img/email.png"> <b>E-mail</b>
+
+                            </p>
+                            <br>
+                            <p>
+                                <img class="icon" src="kontakt_img/aabningstid.png"> <b>Åbningstider</b>
+                            </p>
+
+                        </div>
+
+                        <div class="col">
+                            <p>
+
                                 <a class="link" href="https://www.google.dk/maps/@55.6485688,12.5324008,3a,75y,203.8h,80.78t/data=!3m9!1e1!3m7!1sinDRMPVUox8YsdWUxKdG1A!2e0!7i13312!8i6656!9m2!1b1!2i45?hl=da"><br>Mozartsvej 9, 2450 København<br> Danmark</a>
                             </p>
-                            <p>
-                                <img src="icons/Mobil.png" class="icon"> <b>Telefon</b>
-                                <a class="link" href="tel:+45 71311932"><br>+45 71311932</a>
-                            </p>
 
-                            <p>
-                                <img src="icons/email.png" class="icon"> <b>E-mail</b>
-                                <a class="link" href="mailto:kontakt@sawasdeewellness.dk"><br>kontakt@sawasdeewellness.dk</a>
-                            </p>
-                            <img src="icons/aabningstid.png" class="icon"> <b>E-mail</b>
-                            <h1>Åbningstider</h1>
-                            <p>Man – Fre : 10:00 – 20:00</p>
-                            <p>Lørdag : 11:00 – 20:00</p>
-                            <p> Søndag : Efter aftale</p>
-
+                            <a class="link" href="tel:+45 71311932"><br>+45 71311932</a>
+                            <br> <br> <br>
+                            <a class="link" href="mailto:kontakt@sawasdeewellness.dk"><br>Kontakt@sawasdeewellness.dk</a>
+                            <br> <br> <br>
+                            <p>Man – Fre : &nbsp;&nbsp;&nbsp;&nbsp; 10:00 – 20:00</p>
+                            <p>Lørdag :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11:00 – 20:00</p>
+                            <p> Søndag : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Efter aftale</p>
                         </div>
 
                     </section>
@@ -102,11 +115,16 @@
                             </label>
                         </div>
 
-                        <form class="form-felt">
+                        <div class="form-felt-inherit">
                             <label for="date">Dato:</label>
-                            <input type="datetime-local" id="date" name="date">
-                        </form>
+                            <input type="date" id="date" name="date">
+                        </div>
 
+                        <div class="form-felt-inherit">
+                            <label for="Time">Tid:</label>
+                            <input type="time" id="Time" name="Time">
+
+                        </div>
                         <div class="form-felt">
                             <label>
                                 Vælg massage
@@ -151,5 +169,37 @@
         </section>
     </div>
 </body>
+
+<footer>
+    <div class="section_wrapper">
+        <div class="adr">
+            <h2>Adresse</h2>
+
+            <p>Mozartsvej 9</p>
+            <p>2450 København</p>
+            <p><br></p>
+        </div>
+
+        <div class="kontakt">
+            <h2>Kontakt</h2>
+
+            <p>Telefon: 71311932</p>
+            <p>E-mail: kontakt@sawasdeewellness.dk</p>
+            <p><br></p>
+        </div>
+
+        <div class="aabningstider">
+            <h2>Åbningstider</h2>
+
+            <p>Man–Fre : 10:00 – 20:00</p>
+            <p>Lørdag : 11:00 – 20:00</p>
+            <p>Søndag : Efter aftale</p>
+        </div>
+    </div>
+
+
+
+</footer>
+
 
 </html>

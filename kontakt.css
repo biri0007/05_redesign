@@ -34,6 +34,11 @@
     margin-bottom: 1rem;
 }
 
+.form-felt-inherit {
+    margin-bottom: 1rem;
+    display: inline-block
+}
+
 label {
     display: grid;
     justify-items: start;
@@ -65,6 +70,8 @@ input {
     color: #fff;
 }
 
+/* Kontakt links */
+
 a.link:link {
     font-family: arial, sans-serif;
     color: #000000;
@@ -91,8 +98,6 @@ a.link:hover {
 
 }
 
-img .icon {
-    width: 10%;
-}
-
+.icon {
+    width: 12px;
 }
