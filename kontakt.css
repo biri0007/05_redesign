@@ -1,13 +1,9 @@
+/*GRID*/
+
+
 .col {
     background-color: white;
 }
-
-/*
-#First_section {
-    margin-top: 100px;
-}
-*/
-
 
 #First_section .section_wrapper {
     display: grid;
@@ -23,6 +19,7 @@
 
 #first_section .col:nth-child(2) {
     grid-column: 3 / 5;
+
 }
 
 .tekst {
@@ -109,6 +106,7 @@ a.link:hover {
 
 }
 
+/*MOBIL MEDIAQUERY*/
 @media only screen and (max-width:600px) {
     #First_section .section_wrapper {
         display: grid;
