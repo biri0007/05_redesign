@@ -23,3 +23,9 @@ main {
 	margin: 40px 0;
 	position: relative;
 }
+
+#video {
+	max-width: 1000px;
+	width: 100%;
+	height: auto;
+}
