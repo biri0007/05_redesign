@@ -1,6 +1,5 @@
 /*GRID*/
 
-
 .col {
     background-color: white;
 }
@@ -26,6 +25,11 @@
     margin: 2rem 2rem -1rem 2rem;
 }
 
+
+/*MAPS*/
+iframe {
+    width: 100%;
+}
 
 /*Forms css*/
 .form-felt {
@@ -119,4 +123,27 @@ a.link:hover {
         grid-template-columns: 1fr 1fr;
         grid-gap: 20px;
     }
+
+    section {
+        padding: 0px;
+    }
+
+    h1 {
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-size: 0.9rem;
+    }
+
+    .form-felt,
+    .form-felt-inherit {
+        margin-bottom: 1rem;
+        margin-left: 2rem;
+    }
+
+    footer {
+        margin-top: 20px;
+    }
+
 }
