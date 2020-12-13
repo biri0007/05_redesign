@@ -1,11 +1,8 @@
+/*GRID*/
+
 .col {
     background-color: white;
 }
-
-#First_section {
-    margin-top: 100px;
-}
-
 
 #First_section .section_wrapper {
     display: grid;
@@ -21,13 +18,18 @@
 
 #first_section .col:nth-child(2) {
     grid-column: 3 / 5;
-    grid-row: 1 / 2;
+
 }
 
 .tekst {
     margin: 2rem 2rem -1rem 2rem;
 }
 
+
+/*MAPS*/
+iframe {
+    width: 100%;
+}
 
 /*Forms css*/
 .form-felt {
@@ -105,5 +107,43 @@ a.link:hover {
 .icon2 {
     width: 15%;
     float: right;
+
+}
+
+/*MOBIL MEDIAQUERY*/
+@media only screen and (max-width:600px) {
+    #First_section .section_wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+
+    #Second_section .section_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+
+    section {
+        padding: 0px;
+    }
+
+    h1 {
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-size: 0.9rem;
+    }
+
+    .form-felt,
+    .form-felt-inherit {
+        margin-bottom: 1rem;
+        margin-left: 2rem;
+    }
+
+    footer {
+        margin-top: 20px;
+    }
 
 }
