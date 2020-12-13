@@ -21,20 +21,17 @@
 
 
 /* section 3 */
-#section3 .section_wrapper {
+.galleri {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     background-color: white;
-    padding: 20px;
+    padding: 30px 30px;
     gap: 10px;
 }
 
-
-#section3 img {
-    /*    display: block;*/
+.galleri_img {
     object-fit: cover;
-    height: 60%;
 }
 
 
@@ -68,6 +65,11 @@
     grid-row: 2/3;
 }
 
+button {
+    display: none;
+}
+
+
 
 
 
@@ -81,7 +83,12 @@
         display: block;
     }
 
-    #section3 .section_wrapper {
+    .galleri {
         display: block;
     }
+
+    button {
+        display: inline;
+    }
+
 }
