@@ -112,7 +112,7 @@ a.link:hover {
 }
 
 /*MOBIL MEDIAQUERY*/
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:920px) {
     #First_section .section_wrapper {
         display: grid;
         grid-template-columns: 1fr;
