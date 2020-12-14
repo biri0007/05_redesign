@@ -33,6 +33,7 @@
 /*MAPS*/
 iframe {
     width: 100%;
+    margin-bottom: 2rem;
 
 }
 
@@ -46,10 +47,12 @@ iframe {
 .form-felt-inherit {
     margin-bottom: 1rem;
     margin-left: 2rem;
+
 }
 
 .col2 {
-    margin-left: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 label {
@@ -115,8 +118,9 @@ a.link:hover {
     width: 12px;
 }
 
-.icon2 {
-    width: 15%;
+
+.facebooklink {
+    width: 10%;
     float: right;
 
 }
