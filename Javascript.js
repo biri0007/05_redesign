@@ -6,10 +6,12 @@ const navSlide = () => {
     //toogle nav
     burger.addEventListener('click', () => {
         nav.classList.toggle('nav-active');
-    });
 
-    //burger animation
-    burger.classList.toggle('toggle');
+
+
+        //burger animation
+        burger.classList.toggle('toggle');
+    });
 }
 
 navSlide();
