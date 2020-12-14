@@ -52,12 +52,6 @@ p {
 }
 
 
-.link img {
-    width: 10%;
-    float: left;
-}
-
-
 /* NAV */
 
 
@@ -171,6 +165,17 @@ footer .section_wrapper {
 .aabningstider {
     grid-column: 3/4;
     place-self: center;
+}
+
+.fb {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: center;
+}
+
+.icon2 {
+    width: 9%;
+
 }
 
 
