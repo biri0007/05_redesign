@@ -87,4 +87,13 @@ button {
     .galleri {
         display: block;
     }
+
+    .galleriknapper {
+        text-align: center;
+    }
+
+    .galleriknapper > div {
+        display: inline-block;
+        vertical-align: middle;
+    }
 }
