@@ -197,6 +197,9 @@ footer .section_wrapper {
 /* MEDIA QUERY TIL MOBIL */
 @media (max-width:600px) {
 
+    header {
+        display: block;
+    }
 
     nav {
         text-transform: uppercase;
