@@ -185,6 +185,35 @@ footer .section_wrapper {
 
 
 
+@media (max-width:800px) {
+
+
+    #menuknap {
+        display: block;
+    }
+
+
+    header {
+        display: block;
+    }
+
+    nav {
+        text-transform: uppercase;
+        font-weight: 800;
+        text-align: center;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    header img {
+        text-align: center;
+    }
+
+}
+
 
 
 /* MEDIA QUERY TIL MOBIL */
