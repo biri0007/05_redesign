@@ -111,27 +111,20 @@ a:link {
 }
 
 a:visited {
-    font-family: arial, sans-serif;
-    color: #000000;
-    font-size: 1.4rem;
     text-decoration: none;
     background: white;
+    color: #000000;
     text-transform: uppercase;
 }
 
 nav a:hover {
     color: white;
-    font-family: arial, sans-serif;
-    color: #ffffff;
-    font-size: 1.4rem;
     background: #d94d9c;
     text-transform: uppercase;
 }
 
 a:active {
     color: white;
-    font-family: arial, sans-serif;
-    font-size: 1.4rem;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -192,6 +185,35 @@ footer .section_wrapper {
 
 
 
+@media (max-width:800px) {
+
+
+    #menuknap {
+        display: block;
+    }
+
+
+    header {
+        display: block;
+    }
+
+    nav {
+        text-transform: uppercase;
+        font-weight: 800;
+        text-align: center;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    header img {
+        text-align: center;
+    }
+
+}
+
 
 
 /* MEDIA QUERY TIL MOBIL */
@@ -215,6 +237,8 @@ footer .section_wrapper {
     header img {
         text-align: center;
     }
+
+
 
 
     /*FOOTER*/
