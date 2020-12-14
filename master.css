@@ -111,27 +111,20 @@ a:link {
 }
 
 a:visited {
-    font-family: arial, sans-serif;
-    color: #000000;
-    font-size: 1.4rem;
     text-decoration: none;
     background: white;
+    color: #000000;
     text-transform: uppercase;
 }
 
 nav a:hover {
     color: white;
-    font-family: arial, sans-serif;
-    color: #ffffff;
-    font-size: 1.4rem;
     background: #d94d9c;
     text-transform: uppercase;
 }
 
 a:active {
     color: white;
-    font-family: arial, sans-serif;
-    font-size: 1.4rem;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -215,6 +208,8 @@ footer .section_wrapper {
     header img {
         text-align: center;
     }
+
+
 
 
     /*FOOTER*/
