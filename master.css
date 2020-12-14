@@ -63,7 +63,8 @@ p {
 
 
 header img {
-    width: 40%;
+    width: 85%;
+    padding-left: 43px;
 }
 
 
@@ -71,20 +72,14 @@ header {
     position: sticky;
     top: 0;
     z-index: 100;
-
     display: flex;
-}
-
-
-.logo {
-    text-align: start;
-
-}
-
-
-.logo a:hover {
     background-color: white;
 }
+
+/*
+.logo {
+    text-align: start;
+}*/
 
 
 nav a:first-child {
@@ -92,9 +87,8 @@ nav a:first-child {
 }
 
 nav {
-    flex-direction: row;
+    /* flex-direction: row;*/
     font-size: 1rem;
-    /*gør at nav bliver siddende, hvor den nu end er placeret*/
     width: 100%;
     height: auto;
     background-color: white;
@@ -212,8 +206,12 @@ footer .section_wrapper {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+        text-align: center;
     }
 
+    header img {
+        text-align: center;
+    }
 
 
     /*FOOTER*/
