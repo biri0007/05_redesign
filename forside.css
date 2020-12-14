@@ -15,6 +15,7 @@ main {
 .video {
 	margin 0;
 	padding: 0;
+	margin-top: 30px;
 }
 
 .wrapper {
@@ -28,4 +29,10 @@ main {
 	max-width: 1000px;
 	width: 100%;
 	height: auto;
+}
+
+.forside_billeder {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
 }
