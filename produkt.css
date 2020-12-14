@@ -16,6 +16,10 @@ main {
 	margin: 0 auto;
 }
 
+section {
+	padding: 60px 80px;
+}
+
 .wrapper {
 	background: white;
 	position: relative;

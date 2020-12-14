@@ -4,6 +4,10 @@
     background-color: white;
 }
 
+#First_section {
+    margin: 30px 0px;
+}
+
 #First_section .section_wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -33,13 +37,19 @@ iframe {
 }
 
 /*Forms css*/
-.form-felt {
-    margin-bottom: 1rem;
-}
 
 .form-felt-inherit {
-    margin-bottom: 1rem;
     display: inline-block
+}
+
+.form-felt,
+.form-felt-inherit {
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+}
+
+.col2 {
+    margin-left: 2rem;
 }
 
 label {
@@ -137,14 +147,12 @@ a.link:hover {
         font-size: 0.9rem;
     }
 
-    .form-felt,
-    .form-felt-inherit {
-        margin-bottom: 1rem;
+    .col2 {
         margin-left: 2rem;
     }
 
-    .col2 {
-        margin-left: 2rem;
+    #First_section {
+        margin: 0px 0px;
     }
 
     footer {
