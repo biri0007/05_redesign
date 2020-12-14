@@ -250,5 +250,12 @@ footer .section_wrapper {
         padding-left: 80px;
     }
 
+    .fb {
+        text-align: left;
+    }
+
+    .icon2 {
+        margin-left: -25px;
+    }
 
 }
