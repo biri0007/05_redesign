@@ -96,4 +96,8 @@ button {
         scroll-snap-align: center;
         flex-grow: 1;
     }
+
+    .galleri img {
+        margin-right: 60px;
+    }
 }
