@@ -166,4 +166,14 @@ a.link:hover {
         margin-left: -25px;
     }
 
+
+    .icon {
+        width: 12px;
+        margin-left: -25px;
+    }
+
+    .kontakttekst {
+        margin-left: -25px;
+    }
+
 }
