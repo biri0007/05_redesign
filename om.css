@@ -71,12 +71,6 @@ button {
     display: none;
 }
 
-.galleriknapper {
-    display: none;
-}
-
-
-
 
 @media only screen and (max-width:550px) {
 
@@ -88,17 +82,18 @@ button {
         display: block;
     }
 
+
     .galleri {
-        display: block;
+        display: flex;
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+        gap: 0px;
     }
 
-    .galleriknapper {
-        display: block;
-        text-align: center;
-    }
-
-    .galleriknapper > div {
-        display: inline-block;
-        vertical-align: middle;
+    .galleri figure {
+        flex-basis: 60%;
+        flex-shrink: 0;
+        scroll-snap-align: center;
+        flex-grow: 1;
     }
 }
