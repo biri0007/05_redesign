@@ -44,6 +44,7 @@ main {
 
 ul {
 	padding-left: 15px;
+	font-family: arial, sans-serif;
 }
 
 @media (max-width:600px) {
