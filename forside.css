@@ -42,6 +42,10 @@ main {
 	padding: 60px 80px;
 }
 
+ul {
+	padding-left: 15px;
+}
+
 @media (max-width:600px) {
 	.wrapper {
 		padding: 30px 40px;
