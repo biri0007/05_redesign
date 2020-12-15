@@ -70,6 +70,9 @@ button {
     display: none;
 }
 
+.galleriknapper {
+    display: none;
+}
 
 
 
@@ -89,6 +92,7 @@ button {
     }
 
     .galleriknapper {
+        display: block;
         text-align: center;
     }
 
