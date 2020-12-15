@@ -34,7 +34,7 @@
 iframe {
     width: 100%;
     margin-bottom: 2rem;
-
+    frameborder: 0;
 }
 
 /*Forms css*/
