@@ -1,5 +1,6 @@
 //media query der lytter til str på browseren
 
+
 function myFunction(x) {
 
     if (x.matches) { // If media query matches
@@ -25,6 +26,10 @@ function myFunction(x) {
             }
             x[slideIndex - 1].style.display = "block";
         }
+
+    } else {
+
+
     }
 }
 
