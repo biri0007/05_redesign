@@ -50,10 +50,6 @@ iframe {
 
 }
 
-.col2 {
-    margin-left: 1rem;
-    margin-right: 1rem;
-}
 
 label {
     display: grid;
@@ -84,6 +80,11 @@ input {
 .button:hover {
     background-image: linear-gradient(#f47cb8, #ef3d96);
     color: #fff;
+}
+
+.col2 {
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 /* Kontakt links */
