@@ -78,7 +78,7 @@ input {
 }
 
 .button:hover {
-    background-image: linear-gradient(#f47cb8, #ef3d96);
+    background-image: linear-gradient(#e3c9d0, #d9b9c2);
     color: #fff;
 }
 
