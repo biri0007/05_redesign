@@ -214,11 +214,12 @@ footer .section_wrapper {
     .nav_links {
         position: absolute;
         right: 0px;
-        height: 70vh;
+        height: 100vh;
         top: 0vh;
         background-color: white;
         display: flex;
         flex-direction: column;
+        justify-content: space-around;
         align-items: center;
         width: 100%;
         transform: translatex(100%);
