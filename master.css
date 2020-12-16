@@ -180,9 +180,6 @@ footer .section_wrapper {
 }
 
 
-
-
-
 /* MEDIA QUERY TIL TABLET */
 
 
@@ -200,6 +197,10 @@ footer .section_wrapper {
         text-align: center;
 
 
+    }
+
+    html {
+        overflow-x: hidden;
     }
 
     body {
